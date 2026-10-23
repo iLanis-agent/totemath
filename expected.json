@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "totes",
+   "args": [
+    "262",
+    "6"
+   ],
+   "expect": "The 262 peaches at 6 peaches a tote take 44 totes, the last tote holding 4 peaches."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "262",
+    "18"
+   ],
+   "expect": "The 262 peaches at 18 peaches a week last 14 full weeks with 10 peaches left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "44",
+    "11.25",
+    "262"
+   ],
+   "expect": "The 44 totes at $11.25 a tote come to $495.00, $1.89 a peach."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "262",
+    "3"
+   ],
+   "expect": "The 262 peaches at 3 peaches a minute take 88 minutes, 1 hour 28 minutes."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 peach at 1 peach a tote takes 1 tote, the last tote holding 1 peach."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "360",
+    "8"
+   ],
+   "expect": "The 360 peaches at 8 peaches a tote take 45 totes, the last tote holding 8 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 peaches at 1000 peaches a tote take 1000 totes, the last tote holding 1000 peaches."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 peach at 1 peach a week lasts 1 full week with 0 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "360",
+    "30"
+   ],
+   "expect": "The 360 peaches at 30 peaches a week last 12 full weeks with 0 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 peaches at 100000 peaches a week last 10 full weeks with 0 peaches left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 tote at $0.01 a tote comes to $0.01, $0.01 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 totes at $999.99 a tote come to $99999000.00, $100.00 a peach."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 peach at 1 peach a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 peaches at 1 peach a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 peaches at 100 peaches a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "670594",
+    "898"
+   ],
+   "expect": "The 670594 peaches at 898 peaches a tote take 747 totes, the last tote holding 686 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "760354",
+    "298"
+   ],
+   "expect": "The 760354 peaches at 298 peaches a tote take 2552 totes, the last tote holding 156 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "474482",
+    "764"
+   ],
+   "expect": "The 474482 peaches at 764 peaches a tote take 622 totes, the last tote holding 38 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "87176",
+    "500"
+   ],
+   "expect": "The 87176 peaches at 500 peaches a tote take 175 totes, the last tote holding 176 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "586582",
+    "593"
+   ],
+   "expect": "The 586582 peaches at 593 peaches a tote take 990 totes, the last tote holding 105 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "145219",
+    "270"
+   ],
+   "expect": "The 145219 peaches at 270 peaches a tote take 538 totes, the last tote holding 229 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "604651",
+    "40"
+   ],
+   "expect": "The 604651 peaches at 40 peaches a tote take 15117 totes, the last tote holding 11 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "282926",
+    "304"
+   ],
+   "expect": "The 282926 peaches at 304 peaches a tote take 931 totes, the last tote holding 206 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "931513",
+    "40"
+   ],
+   "expect": "The 931513 peaches at 40 peaches a tote take 23288 totes, the last tote holding 33 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "289491",
+    "337"
+   ],
+   "expect": "The 289491 peaches at 337 peaches a tote take 860 totes, the last tote holding 8 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "115404",
+    "526"
+   ],
+   "expect": "The 115404 peaches at 526 peaches a tote take 220 totes, the last tote holding 210 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "487580",
+    "54"
+   ],
+   "expect": "The 487580 peaches at 54 peaches a tote take 9030 totes, the last tote holding 14 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "655766",
+    "832"
+   ],
+   "expect": "The 655766 peaches at 832 peaches a tote take 789 totes, the last tote holding 150 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "900407",
+    "740"
+   ],
+   "expect": "The 900407 peaches at 740 peaches a tote take 1217 totes, the last tote holding 567 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "956962",
+    "174"
+   ],
+   "expect": "The 956962 peaches at 174 peaches a tote take 5500 totes, the last tote holding 136 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "763253",
+    "578"
+   ],
+   "expect": "The 763253 peaches at 578 peaches a tote take 1321 totes, the last tote holding 293 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "936820",
+    "655"
+   ],
+   "expect": "The 936820 peaches at 655 peaches a tote take 1431 totes, the last tote holding 170 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "757805",
+    "773"
+   ],
+   "expect": "The 757805 peaches at 773 peaches a tote take 981 totes, the last tote holding 265 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "964293",
+    "198"
+   ],
+   "expect": "The 964293 peaches at 198 peaches a tote take 4871 totes, the last tote holding 33 peaches."
+  },
+  {
+   "fn": "totes",
+   "args": [
+    "154103",
+    "825"
+   ],
+   "expect": "The 154103 peaches at 825 peaches a tote take 187 totes, the last tote holding 653 peaches."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "508970",
+    "24776"
+   ],
+   "expect": "The 508970 peaches at 24776 peaches a week last 20 full weeks with 13450 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "969560",
+    "64383"
+   ],
+   "expect": "The 969560 peaches at 64383 peaches a week last 15 full weeks with 3815 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "953465",
+    "35959"
+   ],
+   "expect": "The 953465 peaches at 35959 peaches a week last 26 full weeks with 18531 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "787470",
+    "19886"
+   ],
+   "expect": "The 787470 peaches at 19886 peaches a week last 39 full weeks with 11916 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "909926",
+    "78047"
+   ],
+   "expect": "The 909926 peaches at 78047 peaches a week last 11 full weeks with 51409 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "430405",
+    "15560"
+   ],
+   "expect": "The 430405 peaches at 15560 peaches a week last 27 full weeks with 10285 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "880941",
+    "30681"
+   ],
+   "expect": "The 880941 peaches at 30681 peaches a week last 28 full weeks with 21873 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "824900",
+    "50394"
+   ],
+   "expect": "The 824900 peaches at 50394 peaches a week last 16 full weeks with 18596 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "743996",
+    "92573"
+   ],
+   "expect": "The 743996 peaches at 92573 peaches a week last 8 full weeks with 3412 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "191214",
+    "99594"
+   ],
+   "expect": "The 191214 peaches at 99594 peaches a week last 1 full week with 91620 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "543592",
+    "17381"
+   ],
+   "expect": "The 543592 peaches at 17381 peaches a week last 31 full weeks with 4781 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "830229",
+    "73645"
+   ],
+   "expect": "The 830229 peaches at 73645 peaches a week last 11 full weeks with 20134 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "627180",
+    "30023"
+   ],
+   "expect": "The 627180 peaches at 30023 peaches a week last 20 full weeks with 26720 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "18376",
+    "8879"
+   ],
+   "expect": "The 18376 peaches at 8879 peaches a week last 2 full weeks with 618 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "43373",
+    "31034"
+   ],
+   "expect": "The 43373 peaches at 31034 peaches a week last 1 full week with 12339 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "155005",
+    "2389"
+   ],
+   "expect": "The 155005 peaches at 2389 peaches a week last 64 full weeks with 2109 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "870233",
+    "14277"
+   ],
+   "expect": "The 870233 peaches at 14277 peaches a week last 60 full weeks with 13613 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "376939",
+    "77888"
+   ],
+   "expect": "The 376939 peaches at 77888 peaches a week last 4 full weeks with 65387 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "489317",
+    "16027"
+   ],
+   "expect": "The 489317 peaches at 16027 peaches a week last 30 full weeks with 8507 peaches left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "675096",
+    "33516"
+   ],
+   "expect": "The 675096 peaches at 33516 peaches a week last 20 full weeks with 4776 peaches left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45380",
+    "144.9",
+    "322386"
+   ],
+   "expect": "The 45380 totes at $144.90 a tote come to $6575562.00, $20.40 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "75093",
+    "883.5",
+    "545071"
+   ],
+   "expect": "The 75093 totes at $883.50 a tote come to $66344665.50, $121.72 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "87641",
+    "348.86",
+    "524316"
+   ],
+   "expect": "The 87641 totes at $348.86 a tote come to $30574439.26, $58.31 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "15520",
+    "7.14",
+    "427890"
+   ],
+   "expect": "The 15520 totes at $7.14 a tote come to $110812.80, $0.26 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "18970",
+    "914.51",
+    "452529"
+   ],
+   "expect": "The 18970 totes at $914.51 a tote come to $17348254.70, $38.34 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "73163",
+    "361.08",
+    "643455"
+   ],
+   "expect": "The 73163 totes at $361.08 a tote come to $26417696.04, $41.06 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "79115",
+    "996.84",
+    "314262"
+   ],
+   "expect": "The 79115 totes at $996.84 a tote come to $78864996.60, $250.95 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69109",
+    "598.36",
+    "613646"
+   ],
+   "expect": "The 69109 totes at $598.36 a tote come to $41352061.24, $67.39 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "16833",
+    "759.2",
+    "886219"
+   ],
+   "expect": "The 16833 totes at $759.20 a tote come to $12779613.60, $14.42 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57246",
+    "164.65",
+    "406407"
+   ],
+   "expect": "The 57246 totes at $164.65 a tote come to $9425553.90, $23.19 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "12001",
+    "949.69",
+    "701212"
+   ],
+   "expect": "The 12001 totes at $949.69 a tote come to $11397229.69, $16.25 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "96331",
+    "582.55",
+    "510572"
+   ],
+   "expect": "The 96331 totes at $582.55 a tote come to $56117624.05, $109.91 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "17306",
+    "943.31",
+    "412181"
+   ],
+   "expect": "The 17306 totes at $943.31 a tote come to $16324922.86, $39.61 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "38600",
+    "28.36",
+    "258417"
+   ],
+   "expect": "The 38600 totes at $28.36 a tote come to $1094696.00, $4.24 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "81261",
+    "97.06",
+    "895018"
+   ],
+   "expect": "The 81261 totes at $97.06 a tote come to $7887192.66, $8.81 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45916",
+    "92.53",
+    "328651"
+   ],
+   "expect": "The 45916 totes at $92.53 a tote come to $4248607.48, $12.93 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "91717",
+    "634.89",
+    "962039"
+   ],
+   "expect": "The 91717 totes at $634.89 a tote come to $58230206.13, $60.53 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45339",
+    "761.48",
+    "668983"
+   ],
+   "expect": "The 45339 totes at $761.48 a tote come to $34524741.72, $51.61 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "12040",
+    "752.52",
+    "338605"
+   ],
+   "expect": "The 12040 totes at $752.52 a tote come to $9060340.80, $26.76 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "41094",
+    "395.86",
+    "596947"
+   ],
+   "expect": "The 41094 totes at $395.86 a tote come to $16267470.84, $27.25 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "51543",
+    "300.41",
+    "52087"
+   ],
+   "expect": "The 51543 totes at $300.41 a tote come to $15484032.63, $297.27 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8201",
+    "141.27",
+    "292328"
+   ],
+   "expect": "The 8201 totes at $141.27 a tote come to $1158555.27, $3.96 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47910",
+    "663.7",
+    "989383"
+   ],
+   "expect": "The 47910 totes at $663.70 a tote come to $31797867.00, $32.14 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "54523",
+    "986.37",
+    "841828"
+   ],
+   "expect": "The 54523 totes at $986.37 a tote come to $53779851.51, $63.88 a peach."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "93227",
+    "859.05",
+    "846919"
+   ],
+   "expect": "The 93227 totes at $859.05 a tote come to $80086654.35, $94.56 a peach."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "931808",
+    "85"
+   ],
+   "expect": "The 931808 peaches at 85 peaches a minute take 10963 minutes, 182 hours 43 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "210255",
+    "81"
+   ],
+   "expect": "The 210255 peaches at 81 peaches a minute take 2596 minutes, 43 hours 16 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "592166",
+    "70"
+   ],
+   "expect": "The 592166 peaches at 70 peaches a minute take 8460 minutes, 141 hours 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "139404",
+    "87"
+   ],
+   "expect": "The 139404 peaches at 87 peaches a minute take 1603 minutes, 26 hours 43 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "222433",
+    "2"
+   ],
+   "expect": "The 222433 peaches at 2 peaches a minute take 111217 minutes, 1853 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "131454",
+    "1"
+   ],
+   "expect": "The 131454 peaches at 1 peach a minute take 131454 minutes, 2190 hours 54 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "551006",
+    "6"
+   ],
+   "expect": "The 551006 peaches at 6 peaches a minute take 91835 minutes, 1530 hours 35 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "253946",
+    "89"
+   ],
+   "expect": "The 253946 peaches at 89 peaches a minute take 2854 minutes, 47 hours 34 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "959749",
+    "84"
+   ],
+   "expect": "The 959749 peaches at 84 peaches a minute take 11426 minutes, 190 hours 26 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "615162",
+    "8"
+   ],
+   "expect": "The 615162 peaches at 8 peaches a minute take 76896 minutes, 1281 hours 36 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "125765",
+    "49"
+   ],
+   "expect": "The 125765 peaches at 49 peaches a minute take 2567 minutes, 42 hours 47 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "255179",
+    "45"
+   ],
+   "expect": "The 255179 peaches at 45 peaches a minute take 5671 minutes, 94 hours 31 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "793469",
+    "59"
+   ],
+   "expect": "The 793469 peaches at 59 peaches a minute take 13449 minutes, 224 hours 9 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "612465",
+    "16"
+   ],
+   "expect": "The 612465 peaches at 16 peaches a minute take 38280 minutes, 638 hours 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "325405",
+    "51"
+   ],
+   "expect": "The 325405 peaches at 51 peaches a minute take 6381 minutes, 106 hours 21 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "628122",
+    "38"
+   ],
+   "expect": "The 628122 peaches at 38 peaches a minute take 16530 minutes, 275 hours 30 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "838278",
+    "29"
+   ],
+   "expect": "The 838278 peaches at 29 peaches a minute take 28907 minutes, 481 hours 47 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "594894",
+    "100"
+   ],
+   "expect": "The 594894 peaches at 100 peaches a minute take 5949 minutes, 99 hours 9 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "753401",
+    "63"
+   ],
+   "expect": "The 753401 peaches at 63 peaches a minute take 11959 minutes, 199 hours 19 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "totes",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "totes",
+   [
+    "1000001",
+    "8"
+   ]
+  ],
+  [
+   "totes",
+   [
+    "2.5",
+    "8"
+   ]
+  ],
+  [
+   "totes",
+   [
+    "262",
+    "0"
+   ]
+  ],
+  [
+   "totes",
+   [
+    "262",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "262",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "262",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "262",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "12.75",
+    "262"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "12.75",
+    "262"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "0",
+    "262"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.755",
+    "262"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.75",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "262",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "262",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "262",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
